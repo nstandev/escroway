@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Escroway</string>
+    <string name="create_a_new_deal">Create new deal</string>
+    <string name="select_a_category">select category</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

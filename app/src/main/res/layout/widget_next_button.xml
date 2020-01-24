@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/next_btn_group"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintStart_toEndOf="@+id/constraint_layout_body"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:showIn="@layout/layout_body_home"
+    android:layout_marginTop="111dp">
+
+    <ImageView
+        android:id="@+id/next_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_next_inactive"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/text_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:textColor="@color/light_grey"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        android:fontFamily="@font/catamaran_thin"
+        android:layout_marginLeft="8dp"/>
+
+</LinearLayout>
